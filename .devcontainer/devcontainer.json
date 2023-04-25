@@ -38,5 +38,10 @@
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "java -version",
 	// Configure tool-specific properties.
-	// "customizations": {},
+	"customizations": {
+		"extensions":[
+			"vscjava.vscode-java-pack"
+
+		]
+	},
 }
