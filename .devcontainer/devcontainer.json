@@ -19,6 +19,13 @@
 			"username": "vscode",
 			"uid": "1000",
 			"gid": "1000"
+		},
+		// java
+
+		"ghcr.io/devcontainers/features/java:1": {
+			"version": "17",
+			"installGradle": true,
+			"installAnt": true
 		}
 	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
